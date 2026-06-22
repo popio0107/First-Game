@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4319b0ecf5ccb8644bea63f7b9be8473
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shopUIPanel: {fileID: 2314751941993848971, guid: 80f0cfe9b6e8f9a468f7050aebeea31c, type: 3}
+  - goldText: {instanceID: 0}
+  - dialogText: {instanceID: 0}
+  - itemListParent: {instanceID: 0}
+  - itemTextPrefab: {instanceID: 0}
+  - cursor: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
