@@ -4,6 +4,23 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    void Start()
+    {
+        // --- 既存の処理（あれば） ---
+
+        // ?? 追加：バトルから戻ってきた直後なら、エンカウントした位置にワープさせる
+        if (EncounterManager.instance != null && EncounterManager.instance.isReturningFromBattle)
+        {
+            // 保存されていた位置へプレイヤーを移動
+            transform.position = EncounterManager.instance.lastPlayerPosition;
+
+            // 位置の復元が終わったら、フラグを元に戻しておく
+            EncounterManager.instance.isReturningFromBattle = false;
+
+            Debug.Log("バトルから無事帰還！位置を復元しました: " + transform.position);
+        }
+    }
+
     public float moveSpeed = 5f;
     public LayerMask obstacleLayer;
 

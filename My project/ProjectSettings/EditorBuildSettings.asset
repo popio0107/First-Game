@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Application/Game/Scenes/Game Scene.unity
     guid: af1d75108ab5d61468253674daac70ff
   - enabled: 1
+    path: Assets/Application/Game/Scenes/BattleScene.unity
+    guid: 9761bb1f0a65d53439c66531ff46fee1
+  - enabled: 1
+    path: Assets/Application/Game/Scenes/ShopScene.unity
+    guid: a875dced5915a3545864e760bca8fcb9
+  - enabled: 1
     path: Assets/Application/Result/Scenes/Result Scene.unity
     guid: 83b38c37b35309d43a03c46e0ce17127
   m_configObjects:
